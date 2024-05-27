@@ -19,12 +19,14 @@ h1 {
     color: #007B63;
     font-size: 36px;
     margin-bottom: 40px;
+    text-align: center; /* 中央揃えにするためのプロパティ */
 }
 
 h2 {
     color: #007B63;
     font-size: 24px;
     margin-bottom: 20px;
+    text-align: center; /* 中央揃えにするためのプロパティ */
 }
 
 label {
@@ -46,22 +48,20 @@ input[type="text"], input[type="password"] {
     margin-bottom: 40px;
 }
 
-.login-button, .change-login-button, .register-button {
+button {
     display: block;
-    width: 100%;
+    width: 100%; /* 幅を100%に設定 */
     padding: 15px;
     margin-bottom: 20px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    text-decoration: none;
     text-align: center;
 }
 
 .login-button {
     background-color: #007B63;
     color: white;
-    width: 101.5%;
 }
 
 .change-login-button {
@@ -75,7 +75,3 @@ input[type="text"], input[type="password"] {
     color: white;
 }
 
-.info-section p {
-    color: #007B63;
-    margin: 10px 0;
-}
