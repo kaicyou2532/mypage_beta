@@ -35,7 +35,7 @@ label {
 }
 
 input[type="text"], input[type="password"] {
-    width: 96%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -46,9 +46,9 @@ input[type="text"], input[type="password"] {
     margin-bottom: 40px;
 }
 
-.login-button, .change-login-button, .register-button {
+.login-button, .search-button, .info-button, .recovery-button, .copy-button, .minecraft-button {
     display: block;
-    width: 93%;
+    width: 100%;
     padding: 15px;
     margin-bottom: 20px;
     border: none;
@@ -56,23 +56,19 @@ input[type="text"], input[type="password"] {
     font-size: 16px;
     text-decoration: none;
     text-align: center;
+    color: white;
 }
 
-.login-button {
+.login-button, .search-button, .info-button, .recovery-button {
     background-color: #007B63;
-    color: white;
-    width: 101.5%;
 }
 
-.change-login-button {
-    background-color: #E6F7F8;
-    color: #007B63;
-    border: 1px solid #007B63;
-}
-
-.register-button {
+.copy-button {
     background-color: #90D7D3;
-    color: white;
+}
+
+.minecraft-button {
+    background-color: #007B63;
 }
 
 .info-section p {
