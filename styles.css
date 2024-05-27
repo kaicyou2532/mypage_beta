@@ -19,44 +19,31 @@ h1 {
     color: #007B63;
     font-size: 36px;
     margin-bottom: 40px;
-    text-align: center; /* 中央揃えにするためのプロパティ */
-}
-
-h2 {
-    color: #007B63;
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center; /* 中央揃えにするためのプロパティ */
-}
-
-label {
-    display: block;
-    text-align: left;
-    margin-bottom: 5px;
-    color: #007B63;
-}
-
-input[type="text"], input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    text-align: center;
 }
 
 .login-section {
     margin-bottom: 40px;
 }
 
-button {
+.info-section {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-button, .register-button, .recover-button {
     display: block;
-    width: 100%; /* 幅を100%に設定 */
+    width: 100%;
     padding: 15px;
     margin-bottom: 20px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     text-align: center;
+    cursor: pointer;
 }
 
 .login-button {
@@ -64,14 +51,12 @@ button {
     color: white;
 }
 
-.change-login-button {
-    background-color: #E6F7F8;
-    color: #007B63;
-    border: 1px solid #007B63;
-}
-
 .register-button {
     background-color: #90D7D3;
     color: white;
 }
 
+.recover-button {
+    background-color: #FF6347;
+    color: white;
+}
